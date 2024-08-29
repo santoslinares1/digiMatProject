@@ -1,0 +1,72 @@
+.banner{
+    margin-top: 30px;
+}
+.container{
+    margin-top: 20px;
+}
+.heading--h1{
+    background-color: rgb(253, 202, 13);
+}
+.h3--heading{
+    background-color: rgb(56, 60, 61);
+    color:  rgb(253, 202, 13);
+}
+.contacto{
+    background-color: rgb(253, 202, 13);
+    width: fit-content;
+}
+.mas--vendido{
+    width: fit-content;
+    background-color: rgb(253, 202, 13);
+}
+.card-item{
+    background-color: rgb(253, 202, 13);    
+}
+.conta{
+    background: linear-gradient(to bottom, #ffffff 33%, rgb(204, 204, 204) 33%);
+}
+.cont{
+    background-color: rgb(204, 204, 204);
+}
+.header--centrar{
+    display: flex;
+    justify-content: center;
+}
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.sidebar-item {
+    cursor: pointer;
+    padding: 0.5rem 0;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-item.active {
+    background-color: #e9ecef;
+    border-left: 3px solid rgb(253, 202, 13);
+    color: black;
+}
+
+.product {
+    text-align: center;
+    padding: 1rem;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-title {
+    background-color: rgb(253, 202, 13);
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
