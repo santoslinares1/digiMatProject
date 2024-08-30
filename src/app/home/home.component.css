@@ -6,18 +6,26 @@
 }
 .heading--h1{
     background-color: rgb(253, 202, 13);
+    width: 270px;
+    text-align: center;
 }
 .h3--heading{
     background-color: rgb(56, 60, 61);
     color:  rgb(253, 202, 13);
+    width: 790px;
+    text-align: center;
 }
 .contacto{
     background-color: rgb(253, 202, 13);
     width: fit-content;
+    width: 250px;
+    text-align: center;
 }
 .mas--vendido{
     width: fit-content;
     background-color: rgb(253, 202, 13);
+    width: 310px;
+    text-align: center;
 }
 .card-item{
     background-color: rgb(253, 202, 13);    
@@ -49,7 +57,22 @@
     border-left: 3px solid rgb(253, 202, 13);
     color: black;
 }
+.form-select{
+    direction: rtl;
+    overflow-y: scroll;
+    border: 0px;
+    border-right: 5px solid rgb(253, 202, 13);
+    text-align: end;
+}
+.form-select::-webkit-scrollbar {
+    width: 10px;
 
+  }
+
+option{
+    margin-left: 10px;
+}
+  
 .product {
     text-align: center;
     padding: 1rem;
@@ -69,4 +92,14 @@
 .product-price {
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+.prueba{
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+}
+.prueba > img{
+    box-sizing: border-box;
+    border: solid 10px rgb(211,209,208);
 }
