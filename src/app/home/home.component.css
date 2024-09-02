@@ -103,3 +103,10 @@ option{
     box-sizing: border-box;
     border: solid 10px rgb(211,209,208);
 }
+
+.flecha{
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 145px;
+    margin-left: 25px;
+}
