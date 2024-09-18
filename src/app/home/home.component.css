@@ -177,3 +177,19 @@ option{
       padding: 6px 10px;
       font-size: 14px;
     }
+
+.ceresita:hover{
+    content: url('/marcas/ceresita.png');
+}
+
+.holcim:hover{
+    content: url('/marcas/holcim.png');
+}
+
+.isover:hover{
+    content: url('/marcas/isover.png');
+}
+
+.gaco:hover{
+    content: url('/marcas/gaco_flex.png');
+}
