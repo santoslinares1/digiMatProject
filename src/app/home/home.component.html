@@ -1,4 +1,12 @@
-<a href="#tienda"><img class="img-fluid banner" src="BANNER.png" alt=""></a>
+<div class="slider-container" style="margin-top: 1%;">
+    <div class="slider" [style.transform]="'translateX(' + translateValue + '%)'">
+        <div class="slide" *ngFor="let image of images; let i = index">
+            <img [src]="image" alt="Slide {{i + 1}}">
+        </div>
+    </div>
+    <button class="prev-button" (click)="prevSlide()">&#10094;</button>
+    <button class="next-button" (click)="nextSlide()">&#10095;</button>
+</div>
 <div class="container-fluid" style="margin-top: 25px;" id="nosotros">
     <div class="row justify-content-center">
         <h2 class="heading--h1">Nuestra Empresa</h2>
