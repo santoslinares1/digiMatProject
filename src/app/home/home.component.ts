@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
-  images: string[] = ['uno.jpeg','dos.jpeg','tres.jpeg'];
+  images: string[] = ['slider/Banners-digi-mat_1.png','slider/Banners-digi-mat_2.png','slider/Banners-digi-mat_3.png'];
   currentIndex = 0;
   translateValue = 0; 
   private intervalId: any;
